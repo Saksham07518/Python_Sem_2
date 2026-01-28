@@ -16,3 +16,7 @@ def linear_search(arr, target):
 result = linear_search(list, target)
 print(result)
 
+if result != 1:
+    print("Element found at index ",result)
+else:
+    print("Element not found")
